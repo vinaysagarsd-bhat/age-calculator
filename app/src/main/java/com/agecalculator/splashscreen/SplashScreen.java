@@ -7,7 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.agecalculator.dashboard.MainActivity;
+import com.agecalculator.dashboard.Dashboard;
 import com.agecalculator.R;
 
 public class SplashScreen extends AppCompatActivity {
@@ -18,13 +18,10 @@ public class SplashScreen extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splashscreen);
-        new Handler().postDelayed(new Runnable(){
-            @Override
-            public void run() {
-                Intent dashboardIntent = new Intent(SplashScreen.this, MainActivity.class);
-                startActivity(dashboardIntent);
-                finish();
-            }
+        new Handler().postDelayed(() -> {
+            Intent dashboardIntent = new Intent(SplashScreen.this, Dashboard.class);
+            startActivity(dashboardIntent);
+            finish();
         }, SPLASH_DISPLAY_LENGTH);
     }
 }

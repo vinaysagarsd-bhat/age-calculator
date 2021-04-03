@@ -19,4 +19,8 @@ public class DashboardViewModel extends ViewModel {
         AgeCalculator ageCalculator = AgeCalculator.calculateAge(startDate,endDate);
         ageInString.setValue("Age: " + ageCalculator.getYear() + " Years " + ageCalculator.getMonth() + " Months " + ageCalculator.getDay()+ " Days");
     }
+
+    public void clearAgeInString(){
+        ageInString.setValue("");
+    }
 }

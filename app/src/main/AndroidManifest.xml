@@ -9,9 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity
-            android:name=".dashboard.MainActivity"></activity>
-        <activity android:name=".splashscreen.SplashScreen" android:theme="@style/Theme.MyApplication.Fullscreen">
+        <activity android:name=".dashboard.Dashboard" />
+        <activity android:name=".splashscreen.SplashScreen" android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

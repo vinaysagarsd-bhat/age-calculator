@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".dashboard.MainActivity">
+    tools:context=".dashboard.Dashboard">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,9 +19,12 @@
             android:id="@+id/dateOfBirthTextInputLayout"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="75"
+            android:layout_weight="70"
             app:endIconMode="clear_text"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            app:hintEnabled="false"
+            app:boxBackgroundColor="@android:color/transparent"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            android:background="@android:color/transparent">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/dateOfBirth"
@@ -35,16 +38,17 @@
             android:id="@+id/pickDate"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="25"
+            android:layout_weight="30"
             android:text="Pick Date"/>
 
     </LinearLayout>
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/date"
-        android:text="Hello World!"
+        android:textStyle="bold"
+        style="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
