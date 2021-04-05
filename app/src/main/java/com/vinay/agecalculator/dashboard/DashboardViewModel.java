@@ -1,9 +1,9 @@
-package com.agecalculator.dashboard;
+package com.vinay.agecalculator.dashboard;
 
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.agecalculator.lib.AgeCalculator;
+import com.vinay.agecalculator.lib.AgeCalculator;
 
 import java.util.Calendar;
 

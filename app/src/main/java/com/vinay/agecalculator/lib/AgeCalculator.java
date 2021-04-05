@@ -1,4 +1,4 @@
-package com.agecalculator.lib;
+package com.vinay.agecalculator.lib;
 
 import java.util.Calendar;
 

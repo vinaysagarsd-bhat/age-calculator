@@ -1,4 +1,4 @@
-package com.agecalculator;
+package com.vinay.agecalculator;
 
 import org.junit.Test;
 

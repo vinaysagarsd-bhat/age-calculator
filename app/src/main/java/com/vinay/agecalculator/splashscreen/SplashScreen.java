@@ -1,4 +1,4 @@
-package com.agecalculator.splashscreen;
+package com.vinay.agecalculator.splashscreen;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -7,8 +7,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.agecalculator.dashboard.Dashboard;
-import com.agecalculator.R;
+import com.vinay.agecalculator.dashboard.Dashboard;
+import com.vinay.agecalculator.R;
 
 public class SplashScreen extends AppCompatActivity {
 

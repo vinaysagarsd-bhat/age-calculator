@@ -1,4 +1,4 @@
-package com.agecalculator.dashboard;
+package com.vinay.agecalculator.dashboard;
 
 import android.os.Bundle;
 import android.view.View;
@@ -6,7 +6,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 
-import com.agecalculator.R;
+import com.vinay.agecalculator.R;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
